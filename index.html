@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字枠計算</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <center><img src="mojiwaku.png"></center></br>
+        *青枠に任意の数を入力</br></br>
+
+
+        級数：
+
+        <input type="number" id="kyusu" class="textbox input"> Ｑ</br>
+
+
+
+        歯数：
+
+        <input type="number" id="hasu" class="textbox input"> Ｈ</br>
+
+
+
+        字数：
+
+        <input type="number" id="jisu" class="textbox input"> Ｗ</br>
+
+
+        行数：
+
+        <input type="number" id="gyosu" class="textbox input"> Ｌ</br>
+
+        <hr width="80%" size="1" class="hr">
+
+        横幅：
+
+        <input type="number" id="yokohaba" class="textbox result" readonly> ㎜</br>
+
+
+        縦幅：
+
+        <input type="number" id="tatehaba" class="textbox result" readonly> ㎜</br>
+
+    </div>
+    <script>window.jQuery = window.$ = require('./jquery-3.5.0.min.js');</script>
+    <script src="calc.js" charset="utf-8"></script>
+</body>
+
+</html>

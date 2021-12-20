@@ -1,0 +1,43 @@
+.main{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 10px 10px;
+    text-align: center;
+
+}
+
+
+.textbox.input{
+    background-color:#ffffff;
+    color: #000000;
+    width: 60px;
+    height: 25px;
+    resize: none;
+    overflow: hidden;
+    box-shadow: none;
+    border: solid 1px #4682b4;
+    max-width:320px;
+    text-align: right; 
+}
+
+
+.textbox.result{
+    background-color:#cccccc;
+    color: #000000;
+    width: 60px;
+    height: 25px;
+    resize: none;
+    overflow: hidden;
+    box-shadow: none;
+    border: none;
+    text-align: right; 
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
