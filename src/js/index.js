@@ -6,7 +6,7 @@ const Tray = electron.Tray;
 app.on("ready", function () {
   mainWindow = new BrowserWindow({ width: 350, height: 440 });
   mainWindow.setMenu(null);
-  mainWindow.loadURL(`file://${__dirname}/index.html`);
+  mainWindow.loadURL(`${__dirname}/../html/index.html`);
   mainWindow.on("closed", () => {
     mainWindow = null;
   });
