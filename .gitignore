@@ -1,1 +1,3 @@
-./mojiwaku-win32-x64/
+/mojiwaku-win32-x64/
+/.vs/
+/node_modules/
